@@ -13,7 +13,8 @@ class Student{
     - Date* dateGraduation
     + Student()
     + ~Student()
-    + void init(address, dateBorn, dateGraduation)
+    + void init(string studentString)
+    + void printStudent()
 }
 class Address{
     - string street
@@ -22,6 +23,15 @@ class Address{
     - string zip
     + Address()
     + void init(street, city, state, zip)
+    + void printAddress()
+    + string getStreet()
+    + void setStreet()
+    + string getCity()
+    + void setCity()
+    + string getState()
+    + void setState()
+    + string getZip()
+    + void setZip()
 }
 class Date{
     # string dateString
@@ -29,7 +39,9 @@ class Date{
     # int day
     # int year
     + Date()
+    + void init(string dateString)
     + void splitDate()
+    + void printDate()
 }
 Student-->Address
 Student-->Date
