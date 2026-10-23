@@ -11,6 +11,7 @@ class Date {
 		int year;
 	public:
 		Date();
+		void splitDate();
 		void init(std::string dateSting);
 		void printDate();
 }; // end class def

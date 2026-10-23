@@ -72,9 +72,35 @@ delete address from heap
 delete dateBorn from heap
 delete dateGraduation from heap
 ```
+# void Student::init(string studentString)
+```
+feed studentString into a string stream ss
+define string nameLast
+define string nameFirst
+define string street
+define string city
+define string state
+define string zip
+define string dateBorn
+define string dateGraduation
+define int credits
+
+with commas as delimiters, feed elements from ss into the defined variables
+
+run setter functions of Student for each variable
+```
 
 # void Student::printStudent()
 ```
+print first name and last name
+print address street
+print city, stat, zip
+print birth date
+print graduation date
+print credit hours
+print border
+
+print last name, first name
 ```
 
 # Address::Address()
@@ -124,6 +150,8 @@ import iostream
 import student header
 import address header
 import date header
+
+void int menu()
 
 int main() {
     open student.csv file
